@@ -1,0 +1,354 @@
+/*General*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+/*Menu*/
+#Menu{
+    height: 80px;
+    width: 1100px;
+    position: sticky;
+    top: 0.1px;
+    left: 135px;
+    right: auto;
+    //background-color: blueviolet;
+    opacity: 1;
+    z-index: 2;
+}
+#img_logo{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 100px;
+    top: 10px;
+    border: solid olivedrab;
+}
+#Botones{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+}
+#Botones ul li{
+    display: inline-block;
+}
+#Botones ul li a{
+    text-decoration: none;
+    margin-left: 35px;
+    border: solid olivedrab;
+    font-size: x-large;
+    padding: 12px;
+    color: white;
+}
+#Botones ul li a:hover{
+    background-color: lightcyan;
+    color: olivedrab;
+
+}
+
+/*Primera Seccion*/
+header{
+    position: relative;
+    height: 400px;
+    top:5px;
+    left: 135px;
+    width: 1100px;
+    //background-color: aquamarine;
+}
+/*imagen de primer seccion*/
+.img_seccion1{
+    position: absolute;
+    height: 350px;
+    width: 400px;
+    top: 15px;
+    left: 80px;
+    //background-color: antiquewhite;
+}
+.img_seccion1 img{
+    width: 400px;
+    height: 350px;
+}
+/*Texto de primera seccion*/
+.txt_seccion1{
+    color: aliceblue;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    top: 15px;
+    left: 520px;
+    font-size:xx-small;
+    //background-color: brown;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*Segunda Seccion*/
+section
+    {
+        position: relative;
+        height: 400px;
+        left: 135px;
+        width: 1100px;
+        //background-color: antiquewhite;
+    }
+    .img_seccion2{
+        position: absolute;
+        height: 380px;
+        width: 400px;
+        top: 5px;
+        left: 550px;
+        //background-color: blueviolet;
+    }
+    .img_seccion2 img{
+        height: 380px;
+        width: 400px;
+    }
+
+
+    .txt_seccion2 {
+        position: absolute;
+        height: 400px;
+        width: 400px;
+        top: 5px;
+        left: 90px;
+        font-size: small;
+    //background-color: brown;
+    color: white;
+    }
+
+/*Tercera Seccion*/
+footer{
+    position: relative;
+    height: 400px;
+    left: 135px;
+    width: 1100px;
+    //background-color: aquamarine;
+}
+.img_seccion3{
+    position: absolute;
+    height: 350px;
+    width: 400px;
+    top: 15px;
+    left: 80px;
+}
+.img_seccion3 img{
+    height: 350px;
+    width: 400px;
+}
+.txt_seccion3{
+    color: aliceblue;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    
+    left: 520px;
+    font-size: 17px;
+    //background-color: blue;
+}
+.txt_seccion3 h3{
+    padding: 15px;
+    padding-top: 30px;
+}
+/*Funcion de JavaScript*/
+.funcion-JavaScript{
+    height: auto;
+    left: 135px;
+    width: 1100px;
+    //background-color:hotpink; 
+}
+.funcion-JavaScript .primer_txt_funcion{
+    color: white;
+    text-align: center;
+}
+.funcion-JavaScript .Formulario {
+    color: black;
+    padding: 5px;
+    border: 2px solid olive;
+}
+.funcion-JavaScript .Formulario:hover {
+   background-color: olive;
+    border: 2px solid white;
+}
+
+/*Parte Final*/
+.partefinal{ 
+    height: auto;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Responsive*/
+@media screen and (max-width:800px) {
+    body{
+        background-color: orange;
+    }
+    /*Menu*/
+    #Menu{
+        height: auto;
+        width: auto;
+        top: 0.1px;
+        left: auto;
+        right: auto;
+        //background-color: blueviolet;
+        opacity: 1;
+        z-index: 2;
+    }
+ 
+    #Botones{
+
+        left: auto;
+        top: auto;
+    }
+    #Botones ul li{
+        display: inline-block;
+    }
+    #Botones ul li a{
+        text-decoration: none;
+        margin-left: 35px;
+        border: solid olivedrab;
+        font-size: x-large;
+        padding: 12px;
+        color: white;
+    }
+    #Botones ul li a:hover{
+        background-color: lightcyan;
+        color: olivedrab;
+    
+    }
+    
+    /*Primera Seccion*/
+    header{
+        position: relative;
+        height: 400px;
+        top:5px;
+        left: 135px;
+        width: 1100px;
+        //background-color: aquamarine;
+    }
+    /*imagen de primer seccion*/
+    .img_seccion1{
+        position: absolute;
+        height: 350px;
+        width: 400px;
+        top: 15px;
+        left: 80px;
+        //background-color: antiquewhite;
+    }
+    .img_seccion1 img{
+        width: 400px;
+        height: 350px;
+    }
+    /*Texto de primera seccion*/
+    .txt_seccion1{
+        color: aliceblue;
+        position: absolute;
+        height: 300px;
+        width: 400px;
+        top: 15px;
+        left: 520px;
+        font-size:xx-small;
+        //background-color: brown;
+        text-align: center;
+        padding-top: 50px;
+    }
+    
+    /*Segunda Seccion*/
+    section
+        {
+            position: relative;
+            height: 400px;
+            left: 135px;
+            width: 1100px;
+            //background-color: antiquewhite;
+        }
+        .img_seccion2{
+            position: absolute;
+            height: 380px;
+            width: 400px;
+            top: 5px;
+            left: 550px;
+            //background-color: blueviolet;
+        }
+        .img_seccion2 img{
+            height: 380px;
+            width: 400px;
+        }
+    
+    
+        .txt_seccion2 {
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            top: 5px;
+            left: 90px;
+            font-size: small;
+        //background-color: brown;
+        color: white;
+        }
+    
+    /*Tercera Seccion*/
+    footer{
+        position: relative;
+        height: 400px;
+        left: 135px;
+        width: 1100px;
+        //background-color: aquamarine;
+    }
+    .img_seccion3{
+        position: absolute;
+        height: 350px;
+        width: 400px;
+        top: 15px;
+        left: 80px;
+    }
+    .img_seccion3 img{
+        height: 350px;
+        width: 400px;
+    }
+    .txt_seccion3{
+        color: aliceblue;
+        position: absolute;
+        height: 400px;
+        width: 400px;
+        
+        left: 520px;
+        font-size: 17px;
+        //background-color: blue;
+    }
+    .txt_seccion3 h3{
+        padding: 15px;
+        padding-top: 30px;
+    }
+    /*Funcion de JavaScript*/
+    .funcion-JavaScript{
+        height: auto;
+        left: 135px;
+        width: 1100px;
+        //background-color:hotpink; 
+    }
+    .funcion-JavaScript .primer_txt_funcion{
+        color: white;
+        text-align: center;
+    }
+    .funcion-JavaScript .Formulario {
+        color: black;
+        padding: 5px;
+        border: 2px solid olive;
+    }
+    .funcion-JavaScript .Formulario:hover {
+       background-color: olive;
+        border: 2px solid white;
+    }
+    
+    /*Parte Final*/
+    .partefinal{ 
+        height: auto;
+        color: antiquewhite;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+}

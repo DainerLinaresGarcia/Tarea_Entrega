@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo-->
+    <title>Pagina JavaScript</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!--Menu-->
+    <div id="Menu">
+        <img  id="img_logo" src="img/FOTO_1.png">
+        <nav id="Botones">
+            <ul>
+                <li id="nombre_empresa"><em><a href="#">BAP</a></em></li>
+                <li><em><a href="#">Inicio</a></em></li>
+                <li><em><a href="#">Servicios</a></em></li>
+                <li><em><a href="#">Productos</a></em></li>
+                <li><em><a href="#">Contactanos</a></em></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Primera Seccion-->
+    <header>
+        <div class="img_seccion1">
+            <img src="img/FOTO_6.png">
+        </div>
+        <div class="txt_seccion1">
+            <h1>BAP <br> 
+                 Es una empresa que descata por sus servicios en: <br>
+                ERP <br>
+                ¿Qué es ERP? <br>
+                La planificación de recursos empresariales (ERP) es un sistema de software que lo ayuda a operar todo su negocio, dando soporte a la automatización y los procesos en finanzas, recursos humanos, fabricación, cadena de suministro, servicios, compras y más.</h1>
+        </div>
+    </header>
+     <!--Segunda Seccion-->
+    <section>
+        <div class="img_seccion2">
+            <img src="img/FOTO_3.png">
+        </div>
+        <div class="txt_seccion2">
+            <h2>Algunos Beneficios que aporta un ERP a su empresa <br>
+                1.Retorno de la inversión a largo plazo (ROI): <br>
+                La eficiencia y el aumento de rendimiento conseguido por la implantación de un ERP y la reducción del número de tareas duplicadas y de errores, compensa la inversión realizada inicialmente. <br>
+                
+                2. Gestión de un mayor volumen de trabajo con mínimos recursos: <br>
+                La integración que aporta un ERP entre las diferentes áreas de la empresa y entre ésta y otras organizaciones, facilita la automatización de los flujos de trabajo e información. Esto aporta una mayor agilidad a la hora de llevar a cabo cualquier proceso, ahora, cada vez más automatizados y basados en las reglas de gestión. <br>
+                
+              </h2>
+        </div>
+    </section>
+     <!--Tercera Seccion-->
+    <footer>
+        <div class="img_seccion3">
+            <img src="img/FOTO_5.png" alt="">
+        </div>
+        <div class="txt_seccion3"> 
+            <h3>3. Control de todos los procesos de la compañía: <br>
+            Los sistemas de gestión empresarial facilitan el control de todos los procesos de la compañía, permitiendo la optimización de costes, calidad y tiempo. <br>
+            
+            4. Mayor comunicación e integración con el mercado: <br>
+            Cada día los ERPs están más abiertos al exterior, más orientados al mercado y a los clientes. Hoy en día, disponer de buena información sobre el entorno en el que nos movemos es básico para el éxito de cualquier empresa a la hora de alcanzar los objetivos comerciales marcados. <br></h3>
+            
+        </div>
+    </footer>
+    <!--Funcion de JavaScript-->
+    <section class="funcion-JavaScript">
+        <h1 class="primer_txt_funcion" >Tambien puede invertir en nosotros, con un margen de Ganancia de hasta el 20% <br>
+        Ingrese el capital con el cual quiere empezar</h1>
+       <center><button class="Formulario"  onclick="calcularNegocio()">CALCULAR</button></center>
+    </section>
+    <!--Copyrigth-->
+<section class="partefinal">
+    &copy; 2023 - Dainer Linares - Todos los derechos reservados
+</section>
+
+
+<script>
+   
+    function calcularNegocio(){
+        var numero = prompt("Ingrese su Capital:");
+       var Ganancia = numero * 20 / 100;
+       alert("Su margen de ganancia es  de $" + Ganancia);
+    }
+</script>
+</body>
+</html>
